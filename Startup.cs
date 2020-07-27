@@ -44,7 +44,7 @@ namespace WebApplicationCore
 
         if (env.IsDevelopment())
         {
-          spa.UseProxyToSpaDevelopmentServer("http://localhost:3000");
+          spa.UseProxyToSpaDevelopmentServer("http://localhost:3000/a/demo ");
           //spa.UseReactDevelopmentServer(npmScript: "start");
         }
       });
